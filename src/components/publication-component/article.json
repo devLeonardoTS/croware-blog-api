@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_publication_component_articles",
+  "info": {
+    "displayName": "ArticleContent",
+    "icon": "file",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "excerpt": {
+      "type": "text",
+      "required": true,
+      "minLength": 1,
+      "maxLength": 512
+    },
+    "body": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
