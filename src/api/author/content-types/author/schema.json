@@ -42,11 +42,17 @@
       "targetField": "name",
       "required": true
     },
-    "articles": {
+    "colabArticles": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::article.article",
-      "inversedBy": "authors"
+      "mappedBy": "colaborators"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article",
+      "mappedBy": "author"
     }
   }
 }
