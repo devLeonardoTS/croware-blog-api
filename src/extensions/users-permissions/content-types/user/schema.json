@@ -67,7 +67,7 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::author.author",
-      "inversedBy": "user"
+      "mappedBy": "user"
     }
   }
 }
